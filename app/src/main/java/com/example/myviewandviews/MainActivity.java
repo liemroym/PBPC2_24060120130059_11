@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         if (getSupportActionBar() != null) {
-            getSupportActionBar().setTitle("Google Pixel");
+            getSupportActionBar().setTitle("Arduino UNO");
         }
     }
 }

@@ -1,23 +1,24 @@
 <resources>
     <string name="app_name">MyViewAndViews</string>
     <string name="content_text">
-        Board ini jadi good news untuk agan yang membutuhkan UNO dengan harga lebih ekonomis. Kenapa? Karena Arduino R3 ini menggunakan IC ATMEGA328P type SMD yang disupport IC driver CH340 yang lebih ekonomis namun tetap handal. Gak usah khawatir, fungsionalitas dan fitur-fiturnya 11-12 dengan UNO standar, bahkan bisa dibilang lebih unggul.
-        Keunggulan :
-        =================================
-        - Harga yang lebih Ekonomis
-        - Memiliki kehandalan dan kualitas yang baik
-        - Include pin Header
-        - Tersedia lubang-lubang tambahan pin I/O yang bisa diinstal pin header.
-        - Tersedia lubang-lubang tambahan untuk jalur power, RX/TX dan I2C yang bisa diinstal pin header.
+        Board ini jadi good news untuk agan yang membutuhkan UNO dengan harga lebih ekonomis. Kenapa? Karena Arduino R3 ini menggunakan IC ATMEGA328P type SMD yang disupport IC driver CH340 yang lebih ekonomis namun tetap handal. Gak usah khawatir, fungsionalitas dan fitur-fiturnya 11-12 dengan UNO standar, bahkan bisa dibilang lebih unggul.\n\n
 
-        Aplikasi :
-        =================================
-        - Mikrokontroler
-        - Pemrosesan sensor dan dtranducer
-        - Kontrol Aktuator, relay ddl.
-        - Pemrosesan data
-        - Robotik
-        - Industrial
+        Keunggulan :\n
+        =================================\n
+        - Harga yang lebih Ekonomis\n
+        - Memiliki kehandalan dan kualitas yang baik\n
+        - Include pin Header\n
+        - Tersedia lubang-lubang tambahan pin I/O yang bisa diinstal pin header.\n
+        - Tersedia lubang-lubang tambahan untuk jalur power, RX/TX dan I2C yang bisa diinstal pin header.\n\n
+
+        Aplikasi :\n
+        =================================\n\
+        - Mikrokontroler\n
+        - Pemrosesan sensor dan dtranducer\n
+        - Kontrol Aktuator, relay ddl.\n
+        - Pemrosesan data\n
+        - Robotik\n
+        - Industrial\n
     </string>
 
     <string name="content_specs_kondisi">Baru</string>
