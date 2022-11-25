@@ -20,6 +20,7 @@
         - Robotik\n
         - Industrial\n
     </string>
+    <string name="stock">Stock hanya 11 buah</string>
 
     <string name="content_specs_kondisi">Baru</string>
     <string name="content_specs_berat">28 g</string>
@@ -32,7 +33,6 @@
     <string name="content_specs_sram">2 KB (ATmega328)</string>
     <string name="content_specs_eeprom">1 KB (ATmega328)</string>
     <string name="content_specs_clock_speed">16 MHz</string>
-    <string name="stock">Stock hanya 11 buah</string>
 
     <string name="specification">Spesifikasi</string>
     <string name="kondisi">Kondisi</string>

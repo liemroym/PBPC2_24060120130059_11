@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         // Inisialisasi onClickListener untuk button yang ada
-        Button callCsBtn = findViewById(R.id.dial_cs_btn);
+        Button dialCsBtn = findViewById(R.id.dial_cs_btn);
         Button buyBtn = findViewById(R.id.buy_btn);
 
-        callCsBtn.setOnClickListener(this);
+        dialCsBtn.setOnClickListener(this);
         buyBtn.setOnClickListener(this);
     }
 

@@ -336,8 +336,8 @@
         </RelativeLayout>
 
         <Button
-            android:id="@+id/dial_cs_btn"
-            android:text="@string/customer_service"
+            android:id="@+id/buy_btn"
+            android:text="@string/buy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -345,8 +345,8 @@
             android:layout_marginBottom="16dp" />
 
         <Button
-            android:id="@+id/buy_btn"
-            android:text="@string/buy"
+            android:id="@+id/dial_cs_btn"
+            android:text="@string/customer_service"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
