@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">MyViewAndViews</string>
+    <string name="content_text">
+        Board ini jadi good news untuk agan yang membutuhkan UNO dengan harga lebih ekonomis. Kenapa? Karena Arduino R3 ini menggunakan IC ATMEGA328P type SMD yang disupport IC driver CH340 yang lebih ekonomis namun tetap handal. Gak usah khawatir, fungsionalitas dan fitur-fiturnya 11-12 dengan UNO standar, bahkan bisa dibilang lebih unggul.
+        Keunggulan :
+        =================================
+        - Harga yang lebih Ekonomis
+        - Memiliki kehandalan dan kualitas yang baik
+        - Include pin Header
+        - Tersedia lubang-lubang tambahan pin I/O yang bisa diinstal pin header.
+        - Tersedia lubang-lubang tambahan untuk jalur power, RX/TX dan I2C yang bisa diinstal pin header.
+
+        Aplikasi :
+        =================================
+        - Mikrokontroler
+        - Pemrosesan sensor dan dtranducer
+        - Kontrol Aktuator, relay ddl.
+        - Pemrosesan data
+        - Robotik
+        - Industrial
+    </string>
+
+    <string name="content_specs_kondisi">Baru</string>
+    <string name="content_specs_berat">28 g</string>
+    <string name="content_specs_microcontroller">ATmega328 SMD</string>
+    <string name="content_specs_operating_voltage">5V</string>
+    <string name="content_specs_input_voltage">7-12V</string>
+    <string name="content_specs_digital_io_pins">14 (of which 6 provide PWM output)</string>
+    <string name="content_specs_analog_input_pins">6</string>
+    <string name="content_specs_flash_memory">32 KB (ATmega328) of which 0.5 KB used by bootloader</string>
+    <string name="content_specs_sram">2 KB (ATmega328)</string>
+    <string name="content_specs_eeprom">1 KB (ATmega328)</string>
+    <string name="content_specs_clock_speed">16 MHz</string>
+    <string name="stock">Stock hanya 11 buah</string>
+
+    <string name="specification">Spesifikasi</string>
+    <string name="kondisi">Kondisi</string>
+    <string name="berat">Berat Satuan</string>
+    <string name="microcontroller">Microcontroller</string>
+    <string name="operating_voltage">Operating Voltage</string>
+    <string name="input_voltage">Input Voltage (recommended)</string>
+    <string name="digital_io_pins">Digital I/O Pins</string>
+    <string name="analog_input_pins">Analog Input Pins</string>
+    <string name="flash_memory">Flash Memory</string>
+    <string name="sram">SRAM</string>
+    <string name="eeprom">EEPROM</string>
+    <string name="clock_speed">Clock Speed</string>
+
+    <string name="seller">Dijual oleh</string>
+    <string name="my_name">Liem, Roy Marcelino</string>
+    <string name="buy">Beli</string>
+    <string name="dummy_value">Rp89.700</string>
+    <string name="dummy_photos">6 photos</string>
+</resources>
