@@ -12,7 +12,7 @@
         - Tersedia lubang-lubang tambahan untuk jalur power, RX/TX dan I2C yang bisa diinstal pin header.\n\n
 
         Aplikasi :\n
-        =================================\n\
+        =================================\n
         - Mikrokontroler\n
         - Pemrosesan sensor dan dtranducer\n
         - Kontrol Aktuator, relay ddl.\n
@@ -50,6 +50,9 @@
     <string name="seller">Dijual oleh</string>
     <string name="my_name">Liem, Roy Marcelino</string>
     <string name="buy">Beli</string>
+    <string name="customer_service">Hubungi CS</string>
     <string name="dummy_value">Rp89.700</string>
     <string name="dummy_photos">6 photos</string>
+
+    <string name="item_bought">Produk telah berhasil dibeli</string>
 </resources>

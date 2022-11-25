@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyActivity"
+    tools:layout_editor_absoluteX="26dp"
+    tools:layout_editor_absoluteY="-18dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/checkmark"
+            android:layout_width="138dp"
+            android:layout_height="131dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/checkmark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item_bought"
+            android:textSize="12pt"
+            android:layout_below="@+id/checkmark"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
