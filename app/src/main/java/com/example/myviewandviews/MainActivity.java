@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.dial_cs_btn:
-                String phoneNumber = "08214166739";
+                String phoneNumber = "082141166739";
                 Intent dialCSIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + phoneNumber));
                 startActivity(dialCSIntent);
                 break;

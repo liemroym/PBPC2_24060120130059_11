@@ -32,7 +32,6 @@
                 android:padding="8dp"
                 android:scaleType="fitCenter"
                 android:text="@string/dummy_photos"
-                android:textAppearance="@style/TextAppearance.AppCompat.Small"
                 android:textColor="@android:color/white" />
         </FrameLayout>
 
@@ -73,7 +72,7 @@
 
                 <TextView
                     style="@style/TextSpec.Field"
-                    android:layout_width="wrap_content" />
+                    android:text="@string/kondisi" />
                     
                 <TextView
                     style="@style/TextSpec.Value"
