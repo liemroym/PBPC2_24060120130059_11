@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,17 +19,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="201dp"
                 android:adjustViewBounds="true"
-                android:contentDescription="TODO"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 android:src="@drawable/arduino" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="44dp"
+                style="@style/TextContent.Small.White"
                 android:layout_gravity="bottom"
                 android:layout_marginStart="16dp"
                 android:layout_marginBottom="16dp"
-                android:adjustViewBounds="true"
                 android:background="#4D000000"
                 android:drawablePadding="4dp"
                 android:gravity="center_vertical"
@@ -39,39 +38,25 @@
         </FrameLayout>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            style="@style/TextContent"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
             android:text="@string/dummy_value"
             android:textSize="32sp" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="12sp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            style="@style/TextContent.Subtitle"
             android:layout_marginBottom="16dp"
             android:text="@string/stock" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            style="@style/TextContent"
             android:layout_marginBottom="16dp"
             android:lineSpacingMultiplier="1"
             android:text="@string/content_text" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="12sp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            style="@style/TextContent.Subtitle"
             android:layout_marginBottom="8dp"
             android:text="@string/specification" />
 
@@ -88,17 +73,11 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:layout_marginEnd="16dp"
-                    android:text="@string/kondisi" />
-
+                    style="@style/TextSpec.Field"
+                    android:layout_width="wrap_content" />
+                    
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:layout_weight="1"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_kondisi" />
             </TableRow>
 
@@ -108,17 +87,11 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Field"
                     android:text="@string/berat" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_berat" />
             </TableRow>
 
@@ -128,17 +101,11 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Field"
                     android:text="@string/microcontroller" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_microcontroller" />
             </TableRow>
 
@@ -148,17 +115,11 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Field"
                     android:text="@string/operating_voltage" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_operating_voltage" />
             </TableRow>
 
@@ -168,17 +129,11 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Field"
                     android:text="@string/input_voltage" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_input_voltage" />
             </TableRow>
 
@@ -188,17 +143,11 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Field"
                     android:text="@string/digital_io_pins" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_digital_io_pins" />
             </TableRow>
 
@@ -208,17 +157,11 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Field"
                     android:text="@string/analog_input_pins" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_analog_input_pins" />
             </TableRow>
 
@@ -228,17 +171,11 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Field"
                     android:text="@string/flash_memory" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_flash_memory" />
             </TableRow>
 
@@ -248,17 +185,11 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Field"
                     android:text="@string/sram" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_sram" />
             </TableRow>
 
@@ -268,17 +199,11 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Field"
                     android:text="@string/eeprom" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_eeprom" />
             </TableRow>
 
@@ -288,27 +213,17 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Field"
                     android:text="@string/clock_speed" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="14sp"
+                    style="@style/TextSpec.Value"
                     android:text="@string/content_specs_clock_speed" />
             </TableRow>
         </TableLayout>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="12sp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            style="@style/TextContent.Subtitle"
             android:layout_marginBottom="8dp"
             android:text="@string/seller" />
 
@@ -328,9 +243,7 @@
                 android:src="@drawable/foto_penjual" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
+                style="@style/TextContent"
                 android:layout_toEndOf="@+id/profile_image"
                 android:text="@string/my_name" />
         </RelativeLayout>
